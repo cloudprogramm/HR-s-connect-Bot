@@ -39,7 +39,7 @@ def connect_to_hr(connect_buttons: List, driver, connected) -> int:
     return connected
 
 
-def run(driver):
+def run(driver) -> None:
     try:
         driver.get(url=URL)
         register(driver)

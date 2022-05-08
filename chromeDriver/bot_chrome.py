@@ -47,10 +47,7 @@ def run(driver) -> None:
         connected = 0
         page = 1
 
-        while True:
-            if connected == amount_connects:
-                break
-
+        while connected != amount_connects:
             driver.get(url=f"https://www.linkedin.com/search/results/people/?"
                            f"keywords=it%20recruiter%2F%20it%20acquisition%20specialist&origin=CLUSTER_EXPANSION&page={page}&sid=zZd")
 

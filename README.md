@@ -5,6 +5,7 @@ Selenium bot for parsing IT HR's on Linkedin and send them connect.
 ## Installations
 
 Python3 must be already installed
+cromedriver.exe must be compatible with your driver version
 
 ```shell
 git clone https://github.com/cloudprogramm/HR-s-connect-Bot.git
@@ -18,3 +19,4 @@ You must create ```auth_data.py``` in chromeDriver folder and create your email 
 ## Additional
 
 * If you want to find another HR's you have to change ```URL_PARSE``` variable in ```bot_chrome.py```
+* Version of chromedriver is 101.0.4951.54

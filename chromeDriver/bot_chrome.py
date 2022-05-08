@@ -5,7 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 from chromeDriver.auth_data import email, password
-from params import URL, DRIVER_PATH
+from params import URL, DRIVER_PATH, amount_connects
 
 
 URL_PARSE = f"https://www.linkedin.com/search/results/people/?keywords=it%20recruiter%2F%20it%20acquisition%20specialist&origin=CLUSTER_EXPANSION&page=1&sid=zZd"
@@ -48,7 +48,7 @@ def run(driver) -> None:
         page = 1
 
         while True:
-            if connected == 80:
+            if connected == amount_connects:
                 break
 
             driver.get(url=f"https://www.linkedin.com/search/results/people/?"

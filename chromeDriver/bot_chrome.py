@@ -65,7 +65,7 @@ def run(driver) -> None:
         driver.quit()
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     chrome_driver = webdriver.Chrome(DRIVER_PATH)
 
     run(driver=chrome_driver)

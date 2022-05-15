@@ -1,5 +1,4 @@
 chromeDriver/_auth_data.py
-chromeDriver/params.py/DRIVER_PATH
 
 # User-specific stuff
 .idea/**/workspace.xml

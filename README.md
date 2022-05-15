@@ -15,9 +15,11 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-You must create ```_auth_data.py``` in chromeDriver folder and create your ```EMAIL``` and ```PASSWORD``` from Linkedin!
+You must create ```_auth_data.py``` in chromeDriver folder and create your ```AccountData``` class 
+with attributes: ```EMAIL``` and ```PASSWORD``` from Linkedin!
 
 ## Additional
 
-* If you want to find another HR's you have to change ```URL_PARSE``` variable in ```bot_chrome.py```
+* If you want to find other HR's you have to change ```URL``` variable in ```params.py``` and change the link
+in ```run()``` loop
 * Version of chromedriver is 101.0.4951.54

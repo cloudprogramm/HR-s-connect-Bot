@@ -4,7 +4,6 @@ from typing import List
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-# from chromeDriver._auth_data import _EMAIL, _PASSWORD
 from chromeDriver import _auth_data
 from params import URL, DRIVER_PATH, amount_connects
 

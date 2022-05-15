@@ -15,7 +15,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-You must create ```auth_data.py``` in chromeDriver folder and create your email and password from Linkedin!
+You must create ```_auth_data.py``` in chromeDriver folder and create your ```EMAIL``` and ```PASSWORD``` from Linkedin!
 
 ## Additional
 
